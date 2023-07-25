@@ -11,7 +11,7 @@ export default function Page() {
     <Frame
       borderClassName="border-purple-200"
       textClassName="text-purple-400"
-      text="app/(with-modal)/top/page.tsx"
+      text="app/(with-modal)/top-photos/page.tsx"
     >
       <NavItems navItems={navItems} />
     </Frame>

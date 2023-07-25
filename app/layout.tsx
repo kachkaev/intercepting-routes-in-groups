@@ -10,7 +10,7 @@ const navItems: NavItem[] = [
     text: "Home (recent photos)",
   },
   {
-    href: "/top",
+    href: "/top-photos",
     text: "Top photos",
   },
   {
