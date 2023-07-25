@@ -17,7 +17,7 @@ export default function Page({
         intercepting photo #{id}
       </div>
       <NavItems
-        navItems={[
+        configs={[
           { href: `/photo?id=${+id - 1}`, text: `← Photo #${+id - 1}` },
           { href: `/photo?id=${+id + 1}`, text: `Photo #${+id + 1} →` },
         ]}

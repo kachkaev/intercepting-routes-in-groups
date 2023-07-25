@@ -1,12 +1,14 @@
 import * as React from "react";
 import { NavItem, type NavItemConfig } from "./nav-item";
 
-export function NavItems({ navItems }: { navItems: NavItemConfig[] }) {
+export { type NavItemConfig };
+
+export function NavItems({ configs }: { configs: NavItemConfig[] }) {
   return (
     <ul className="flex space-x-3">
-      {navItems.map((navItem) => (
-        <li key={navItem.href}>
-          <NavItem {...navItem} />
+      {configs.map((navItemConfig) => (
+        <li key={navItemConfig.href}>
+          <NavItem {...navItemConfig} />
         </li>
       ))}
     </ul>

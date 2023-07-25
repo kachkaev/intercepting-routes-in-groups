@@ -1,10 +1,10 @@
 import "./globals.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import { NavItem, NavItems } from "../components/nav";
+import { type NavItemConfig, NavItems } from "../components/nav";
 import { Frame } from "@/components/frame";
 
-const navItems: NavItem[] = [
+const navItemConfigs: NavItemConfig[] = [
   {
     href: "/",
     text: "Home (recent photos)",
@@ -42,7 +42,7 @@ export default function RootLayout({
           textClassName="text-green-400"
           text="app/layout.tsx"
         >
-          <NavItems navItems={navItems} />
+          <NavItems configs={navItemConfigs} />
           <Frame
             borderClassName="border-green-200"
             textClassName="text-green-400"
