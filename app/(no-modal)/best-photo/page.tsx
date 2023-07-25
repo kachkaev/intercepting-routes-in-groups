@@ -1,11 +1,7 @@
 import { Frame } from "@/components/frame";
 import { NavItems } from "@/components/nav";
 
-export default function Default({
-  searchParams: { id },
-}: {
-  searchParams: Record<string, string>;
-}) {
+export default function Default() {
   return (
     <Frame
       borderClassName="border-orange-200"
