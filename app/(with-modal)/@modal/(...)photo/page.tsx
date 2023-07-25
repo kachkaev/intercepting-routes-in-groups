@@ -1,6 +1,5 @@
 import { Frame } from "@/components/frame";
 import { NavItems } from "@/components/nav";
-import Link from "next/link";
 
 export default function Page({
   searchParams: { id },
