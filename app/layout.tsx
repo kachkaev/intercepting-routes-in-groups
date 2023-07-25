@@ -14,8 +14,8 @@ const navItems: NavItem[] = [
     text: "Top photos",
   },
   {
-    href: "/about",
-    text: "About",
+    href: "/best-photo",
+    text: "Best photo",
   },
   {
     href: "/photo?id=123",

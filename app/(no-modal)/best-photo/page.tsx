@@ -10,7 +10,7 @@ export default function Default({
     <Frame
       borderClassName="border-orange-200"
       textClassName="text-orange-400"
-      text="app/(no-modal)/about/page.tsx"
+      text="app/(no-modal)/best-photo/page.tsx"
     >
       <NavItems navItems={[{ href: `/photo?id=999`, text: `Photo #999` }]} />
     </Frame>
