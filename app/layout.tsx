@@ -18,7 +18,7 @@ const navItemConfigs: NavItemConfig[] = [
     text: "Best photo",
   },
   {
-    href: "/photo?id=123",
+    href: "/photo/123",
     text: "Photo #123",
   },
 ];
