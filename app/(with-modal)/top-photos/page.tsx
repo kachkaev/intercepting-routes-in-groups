@@ -2,7 +2,7 @@ import { Frame } from "@/components/frame";
 import { type NavItemConfig, NavItems } from "@/components/nav";
 
 const navItemConfigs: NavItemConfig[] = [42, 100, 142].map((id) => ({
-  href: `/photo?id=${id}`,
+  href: `/photo/${id}`,
   text: `Photo #${id}`,
 }));
 

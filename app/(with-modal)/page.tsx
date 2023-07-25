@@ -3,7 +3,7 @@ import { type NavItemConfig, NavItems } from "@/components/nav";
 
 const navItemConfigs: NavItemConfig[] = Array.from({ length: 5 }).map(
   (_, index) => ({
-    href: `/photo?id=${index + 1}`,
+    href: `/photo/${index + 1}`,
     text: `Photo #${index + 1}`,
   })
 );

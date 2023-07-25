@@ -8,7 +8,7 @@ export default function Default() {
       textClassName="text-orange-400"
       text="app/(no-modal)/best-photo/page.tsx"
     >
-      <NavItems configs={[{ href: `/photo?id=999`, text: `Photo #999` }]} />
+      <NavItems configs={[{ href: `/photo/999`, text: `Photo #999` }]} />
     </Frame>
   );
 }
