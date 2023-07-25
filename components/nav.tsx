@@ -1,22 +1,7 @@
-import { cn } from "@/lib/cn";
-import Link from "next/link";
 import * as React from "react";
+import { NavItem, type NavItemConfig } from "./nav-item";
 
-export type NavItem = { href: string; text: React.ReactNode };
-
-export function NavItem({
-  href,
-  text,
-  className,
-}: NavItem & { className?: string }) {
-  return (
-    <Link href={href} className={cn("border-b", className)}>
-      {text}
-    </Link>
-  );
-}
-
-export function NavItems({ navItems }: { navItems: NavItem[] }) {
+export function NavItems({ navItems }: { navItems: NavItemConfig[] }) {
   return (
     <ul className="flex space-x-3">
       {navItems.map((navItem) => (
